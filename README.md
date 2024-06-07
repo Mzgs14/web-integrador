@@ -40,3 +40,13 @@ Pagina web de presentacion
 4. imagen 4
 5. foto11
 6. foto2
+
+### 3 - Wireframe
+
+Pagina 1:Presentacion
+
+![Pagina Principal](./media/foto11.jpg)
+
+Pagina 2:Videos
+
+![Pagina Principal](./media/foto2.jpg)
