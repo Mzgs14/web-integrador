@@ -16,9 +16,7 @@ Pagina web de presentacion
 
 2.Historia Trayectoria: Texto / Fotos / Cronologia
 
-3.Noticias: Proximos shows / adelantos
-
-4.Contacto: Redes sociales / mails / telefonos / ubicacion
+3.Contacto: Redes sociales / mails / telefonos / ubicacion
 
 
 
@@ -39,3 +37,6 @@ Pagina web de presentacion
 1. imagen 1 
 2. imagen 2
 3. imagen 3
+4. imagen 4
+5. foto11
+6. foto2
