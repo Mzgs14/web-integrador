@@ -1,5 +1,7 @@
 # web-integrador
 
+La pagina va a tratar de hablar mas sobre mbv y sobre su trayectoria y datos sobre los miembros ya que ellos no dieron muchas entrevistas.
+
 ## Autor Tobias Bontempelli 
 
 1. item 1
@@ -23,6 +25,9 @@ Pagina web de presentacion
 ## Diseño UI
 
 ### 1 - Fuente
+ 
+ 1. font:"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+
 
 
 ### 2 - Colores
