@@ -1,6 +1,6 @@
 # web-integrador
 
-La pagina va a tratar de hablar mas sobre mbv y sobre su trayectoria y datos sobre los miembros ya que ellos no dieron muchas entrevistas.
+La pagina va a tratar de hablar sobre mbv y sobre su trayectoria ya que ellos no dieron muchas entrevistas.
 
 ## Autor Tobias Bontempelli 
 
