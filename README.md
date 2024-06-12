@@ -34,7 +34,7 @@ Pagina web de presentacion
 
 ### 3 - Imagenes
 
-1. imagen 1 
+1. imagen1
 2. imagen 2
 3. imagen 3
 4. imagen 4
