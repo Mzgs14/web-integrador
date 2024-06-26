@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Kabel-Bold';
+    src:url('Kabel-Bold.ttf.woff') format('woff'),
+        url('Kabel-Bold.ttf.svg#Kabel-Bold') format('svg'),
+        url('Kabel-Bold.ttf.eot'),
+        url('Kabel-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+    }
+    h1{
+
+        font-family: "kabelbold";
+    }
