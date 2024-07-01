@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mbv</title>
     <meta name="description" content="pagina sobre mbv">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <style>
   
@@ -75,10 +77,12 @@
 
 
 section#principal{
-   background-color: rgb(71, 65, 65) ;
+   background-color:  rgb(71, 65, 65) ;
    max-width: 100%;
    height: auto;
-   image-orientation: left;
+   justify-content: center;
+   text-align: center;
+   
    
    
    
@@ -88,26 +92,61 @@ section#principal{
 
 }
 
-.video-container{
-  background-color: aquamarine;
-  display: flex;
-  align-content: flex-start;
-}
+
+
   h1{
     margin: 0px;
   }
 
 
-.video-container{
-  display: flex;
-  align-content: flex-start;
+
 
 
 }
 
+h1{
+  font-family: "Poppins";
+}
+
+
+.image{
+  max-width: 50%; 
+  margin-right: 20px;
+  
+}
+
+.text{
+
+  flex: 1;
+}
 
 
 
+footer {
+    background-color: #f53333;
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.footer-content img {
+    width: 100px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.footer-content p {
+    margin: 0px; 
+}
+
+img.container{
+  text-align: center;
+}
 </style>
 
 </head>
@@ -115,7 +154,7 @@ section#principal{
 <body>
     <header>
         <div class="logo-container">
-            <a href="#">
+            <a href="./index.html">
                 <img src="./media/mbv-artwork-title.png" alt="Logo de la pagina">
             </a>
         </div>
@@ -136,14 +175,23 @@ section#principal{
     </header>
  
     <section id="principal">
-     <div>
-          <h1> Titulo principal </h1>
-          <p> slogan </p>
+     <div class="img-container">
+          <h1> Discos </h1>
+          
+          <a href="https://mbv.ffm.to/isntanythingstrm"> 
           <img src="./media/Isnt-Anything_TPS-1-1000x1000.jpg" alt="mbv"> 
-         <p>no mor sori</p>
+        </a>
+        <a href="https://mbv.ffm.to/lovelessstrm">
           <img src="./media/imagen 2.jpg" alt="Loveless">
-          <img src="./media/imagen 3.jpg" alt="mbv">
+        </a>
+        <a href="https://mbv.ffm.to/mbv-strm">
+        <img src="./media/imagen 3.jpg" alt="mbv">
+      </a> 
+       <a href="https://mbv.ffm.to/eps88-91strm">
           <img src="media/imagen 4.jpg" alt="ep">
+       </a>
+          
+         
         
         </div>
          
@@ -151,34 +199,17 @@ section#principal{
 
 
    
-<section >
-  <div class="video-container">
-  <iframe width="1280" height="720" src="https://www.youtube.com/embed/gU7tX5YJghc" title="my bloody valentine – soon (official video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="1356" height="763" src="https://www.youtube.com/embed/L3hYEwCmMhY" title="my bloody valentine – you made me realise (official video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-</section>
 
 
 
 </body>
 
 <footer>
-  <form>
-    <div>
-      <label for="uname">Escribe tu correo asi recibiras mas noticias: </label>
-      <input
-        type="text"
-        id="uname"
-        name="name"
-        placeholder="Una sola palabra, en minúsculas" />
-    </div>
-    <div>
-      <button>Enviar</button>
-    </div>
-  </form>
-  
-
-
+  <div class="footer-content">
+    <a href="./index.html">  
+    <img src="./media/mbv-artwork-title.png" alt="Descripción de la imagen">
+  </a>  
+  </div>
 </footer>
 
 </html>

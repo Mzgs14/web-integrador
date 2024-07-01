@@ -26,7 +26,7 @@ Pagina web de presentacion
  
  1. font:"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
 
-
+2. ![Pagina Principal](./Font)
 
 ### 2 - Colores
 

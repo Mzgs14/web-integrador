@@ -1,13 +1,19 @@
-@font-face {
-    font-family: 'Kabel-Bold';
-    src:url('Kabel-Bold.ttf.woff') format('woff'),
-        url('Kabel-Bold.ttf.svg#Kabel-Bold') format('svg'),
-        url('Kabel-Bold.ttf.eot'),
-        url('Kabel-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
-    }
-    h1{
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  h1 {
+    font-family: "Poppins", sans-serif;
+  }
 
-        font-family: "kabelbold";
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+
+    p{
+        border-style: outset
+        color rgb(245, 245, 245)
     }
