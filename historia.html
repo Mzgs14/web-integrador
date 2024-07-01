@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/e264a506b0.js" crossorigin="anonymous"></script>
 
 <head>
     <style>
@@ -16,6 +16,7 @@
 body {
             margin: 0px;
             padding: 0px;
+           
 
         }
 
@@ -31,6 +32,7 @@ body {
             top: 0px;
             width: 100%;
             box-sizing: border-box;
+            
         }
 
         nav {
@@ -93,6 +95,7 @@ background-color:  rgb(126, 120, 120) ;
  .container{
     padding-left: 20px;
     padding-right: 20px;
+    
  }
  
  .historia-container{
@@ -108,6 +111,50 @@ background-color:  rgb(126, 120, 120) ;
  .historia-container{
     text-align: center;
  }
+
+
+ footer {
+    background-color: #f53333;
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.footer-content img {
+    width: 100px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.footer-content p {
+    margin: 0px; 
+}
+
+img.container{
+  text-align: center;
+}
+
+.logos{
+
+font-size: 30px;
+display: flex;
+justify-content: space-around;
+padding: 5px 10px;
+
+}
+
+@media only screen and (max-width: 768px) {
+  
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
  </style>
 
 </head>
@@ -203,4 +250,33 @@ background-color:  rgb(126, 120, 120) ;
 
     </p>
 </div>
+
+<footer>
+
+    <div class="footer-content">
+        <a href="./index.html">  
+        <img src="./media/mbv-artwork-title.png" alt="Descripción de la imagen">
+      </a>  
+    </div>
+
+
+    
+    <div class="logos">
+
+
+        <a href="https://www.facebook.com/mybloodyvalentine"><i class="fa-brands fa-facebook"></i></a>
+  
+        
+        <a href="https://www.instagram.com/mbvofficial/"><i class="fa-brands fa-instagram"></i></a>
+       
+        <a href="https://www.youtube.com/channel/UCtmftE9d_FKl3ZUzPaB1etw"><i class="fa-brands fa-youtube"></i></a>
+        
+        <a href="https://x.com/MBVofficial"><i class="fa-brands fa-twitter"></i></a>
+       
+        <a href="https://open.spotify.com/playlist/3Q49SXG28nLtBibIX0uVti?si=ZVKEhXPDSMeUOajAdLj8XA&nd=1"><i class="fa-brands fa-spotify"></i></a>
+        
+      </div>
+      
+
+</footer>
 </body>
